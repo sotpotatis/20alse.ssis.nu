@@ -1,0 +1,33 @@
+[submodule "src/20alse.school_website"]
+	path = src/20alse.school_website
+	url = https://github.com/sotpotatis/20alse_school_website
+[submodule "src/20alse.svamphemsida-bootstrap"]
+	path = src/20alse.svamphemsida-bootstrap
+	url = https://github.com/sotpotatis/20alse.svamphemsida-bootstrap
+[submodule "src/20alse.portfoliohemsida"]
+	path = src/20alse.portfoliohemsida
+	url = https://github.com/sotpotatis/20alse.portfoliohemsida
+[submodule "src/20alse.pentry"]
+	path = src/20alse.pentry
+	url = https://github.com/sotpotatis/20alse.pentry
+[submodule "src/20alse.click-the-happy-man"]
+	path = src/20alse.click-the-happy-man
+	url = https://github.com/sotpotatis/20alse.click-the-happy-man
+[submodule "src/20alse.yatzy-webbutveckling-slutprojekt"]
+	path = src/20alse.yatzy-webbutveckling-slutprojekt
+	url = https://github.com/sotpotatis/20alse.yatzy-webbutveckling-slutprojekt
+[submodule "src/20alse.Awesome_SSIS"]
+	path = src/20alse.Awesome_SSIS
+	url = https://github.com/sotpotatis/Awesome_SSIS
+[submodule "src/20alse.distans"]
+	path = src/20alse.distans
+	url = https://github.com/sotpotatis/20alse.distans
+[submodule "src/20alse.ssis-fit"]
+	path = src/20alse.ssis-fit
+	url = https://github.com/sotpotatis/ssis-fit
+[submodule "src/20alse.school_website_old"]
+	path = src/20alse.school_website_old
+	url = https://github.com/sotpotatis/20alse.school_website_old
+[submodule "src/20alse.lunch_websites"]
+	path = src/20alse.lunch_websites
+	url = https://github.com/sotpotatis/20alse.lunch_websites

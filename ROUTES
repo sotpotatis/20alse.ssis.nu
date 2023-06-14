@@ -1,0 +1,14 @@
+# The routes file controls routing.
+# It maps a repo name's .build directory (in dist) to a subpath
+# example-->/example
+20alse.school_website-->/
+20alse.lunch_websites-->/lunch
+20alse.school_website_old-->/index_old
+20alse.svamphemsida-bootstrap-->/bootstrap
+20alse.click-the-happy-man-->/clicker
+20alse.portfoliohemsida-->/portfolio
+20alse.pentry-->/pentry
+20alse.yatzy-webbutveckling-slutprojekt-->/yatzy
+20alse.Awesome_SSIS-->/awesome
+20alse.distans-->/distans
+20alse.ssis-fit-->/fit

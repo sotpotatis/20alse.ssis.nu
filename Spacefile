@@ -1,0 +1,10 @@
+v: 0
+micros:
+    - name: Website
+      src: ./
+      commands:
+        - chmod +x prepare-and-run-handyman.sh && bash prepare-and-run-handyman.sh
+      serve: ./dist
+      engine: static
+      public: true
+      primary: true
