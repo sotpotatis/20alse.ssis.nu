@@ -51,7 +51,12 @@ and the scripts inside the `scripts/` directory (read on for more information ab
 
 #### Pushing to Deta and updating submodules
 
-On Windows, running `.\push_to_deta.bat` will update submmodules and push the whole code to Deta.
+On Windows, running `.\push_to_deta.bat` will update submodules and push the whole code to Deta.
+
+#### Note regarding Deta
+
+In order for routing of the [Yatzy](https://github.com/sotpotatis/20alse.yatzy-webbutveckling-slutprojekt) game to work properly, it is pushed as a separate micro.
+See the [Spacefile](Spacefile) for reference.
 
 ### Handyman, the builder 🔨
 
@@ -62,11 +67,10 @@ via my custom Python script. Routing is done in the ROUTES file.
 
 #### How to handyman
 
-##### How Handyman works
-1. Check out the repository you want to add in `src` or add it manually.
+##### How Handyman works1. Check out the repository you want to add in `src` or add it manually.
 2. If it does not need any build scripts, do not add anything in the `scripts/` folder.
 Otherwise. create a script with `.sh` ending (Bash) and add the build scripts that you need to execute.
-3. Edit `ROUTES.md` to control where the built dist (outputted to a `.{repo/folder name}-build` directory *relative to the working directory*) ends up in the `dist`.
+3. Edit `ROUTES.md` to control where the built dist (outputted to a `.{repo/folder name}-build` directory *relative to the working directory*) ends up in the `dist`. Note: examples for this can be found by looking at the [scripts/](scripts) directory in this repository.
 4. Run the `handyman.py` script to generate output.
 
 ##### Ignoring files

@@ -1,5 +1,6 @@
 v: 0
 micros:
+  # This is the main website that handles the things that were built by Handyman!
     - name: Website
       src: ./
       commands:
@@ -8,3 +9,13 @@ micros:
       engine: static
       public: true
       primary: true
+    # See the README: this is used to make the Yatzy project (which uses React Router) to work properly
+    - name: Yatzy
+      src: src/20alse.yatzy-webbutveckling-slutprojekt/frontend/yatzyprojekt
+      commands:
+        - npm install
+        - vite build --outDir=/build
+      engine: react
+      public: true
+      serve: ./dist
+      path: yatzy
